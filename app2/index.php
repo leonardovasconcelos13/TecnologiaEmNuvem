@@ -17,4 +17,4 @@
         <input type="email" name="email" id="email" required><br><br>
     </form>
 </body>
-</html>
+</html>SS
