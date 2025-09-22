@@ -7,7 +7,7 @@ function stringParaBinario($string) {
   $binario = '';
   foreach(str_split($string) as $char) {
   //Converte o caractere para o valor binario de 8 bits
-    $binario = str_pad(decbin(ord($char)), 8, '0', STR_PAD_LEFT) , '';
+    $binario = str_pad(decbin(ord($char)) 8, '0', STR_PAD_LEFT) , '';
   }
   return $binario;
 }
